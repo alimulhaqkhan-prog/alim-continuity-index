@@ -24,7 +24,7 @@
 
 <br/>
 
-[🚀 Live Demo](https://alimulhaqkhan-prog.github.io/alim-continuity-index/) &nbsp;·&nbsp;
+[🌺 Live Demo](https://alimulhaqkhan-prog.github.io/alim-continuity-index/) &nbsp;·&nbsp;
 [📄 Research Paper](https://doi.org/10.5281/zenodo.19201362) &nbsp;·&nbsp;
 [👤 Author](#-author)
 
