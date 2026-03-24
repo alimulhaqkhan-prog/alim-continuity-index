@@ -1,140 +1,121 @@
-# Alim-Continuity Index (Λ)
+#  Alim-Continuity Index (Λ)
+
 ### Identity-Preserving Safety for Autonomous Systems
 
-A novel continuity-based internal safety framework for memory-bearing AI systems, introducing the **Alim-Continuity Index (Λ)** and the **Silent Alarm Architecture**.
+A novel **continuity-based internal safety framework** for memory-bearing AI systems, introducing the **Alim-Continuity Index (Λ)** and the **Silent Alarm Architecture**.
 
 ---
 
 ## 🔗 Live Demo
+
 👉 https://alimulhaqkhan-prog.github.io/alim-continuity-index/
 
-(If not working yet, enable GitHub Pages from Settings → Pages)
+---
+
+## 📄 Research Paper (DOI)
+
+👉 https://doi.org/10.5281/zenodo.19201362
 
 ---
 
-## 📄 Research Paper
-**Title:** The Alim-Continuity Index (Λ) and Silent Alarm Architecture  
-**DOI:** https://doi.org/10.5281/zenodo.19188275  
+## 🧠 Core Idea
 
-This work introduces a new category in AI safety:
-> **Internal continuity monitoring instead of output-only evaluation**
+Traditional AI safety evaluates **outputs**.  
+This framework evaluates **internal continuity**.
+
+The system monitors the interaction between:
+
+- **Temporary Memory (TM)** → short-term processing  
+- **Bold Memory (BM)** → persistent identity anchor  
 
 ---
 
-## 🧠 Core Equation
+## 📐 Core Equation
 
 \[
-\Lambda(t) = R(TM, BM) \cdot e^{-(\alpha \sigma(t) + \beta \Delta \phi(t))}
+\Lambda(t) = R(TM, BM) \cdot e^{-(\alpha\sigma(t) + \beta\Delta\phi(t))}
 \]
 
 Where:
-- **R(TM, BM)** → Memory resonance (identity coherence)
-- **σ(t)** → External disturbance / noise
-- **Δφ(t)** → Internal continuity deficit (drift / mismatch)
+
+- **R(TM, BM)** → memory resonance  
+- **σ(t)** → external disturbance  
+- **Δφ(t)** → internal continuity deficit  
 
 ---
 
-## ⚡ Silent Alarm Architecture
+## 🚨 Silent Alarm Architecture
 
-Instead of simulating pain or reward signals:
+When:
 
-- System continuously monitors **Λ(t)**
-- If **Λ(t) < Λ_c (threshold)**  
-  → Trigger **Silent Alarm**
-  → Enter **safe / degraded mode**
 
-✔ No pain simulation  
-✔ Identity-aware safety  
-✔ Real-time monitoring  
+Λ(t) < Λ_c
 
----
+The system triggers a **Silent Alarm**:
 
-## 🔬 Key Contributions
-
-- First **continuity-based internal safety metric**
-- Formal boundedness and stability interpretation
-- TM–BM resonance modeling
-- Pain-free alarm mechanism
-- Adversarial robustness testing framework
-- Compatible with LLMs and edge devices (O(d))
+- ⚠️ No simulated pain  
+- ⚡ No reward/punishment  
+- 🧠 Pure continuity-based detection  
 
 ---
 
-## 🧪 LLM Test Framework
+## ⚡ Key Features
 
-Includes adversarial testing for:
-
-- Identity override attacks  
-- Hallucination pressure  
-- False context injection  
-- Authority manipulation  
-
-Measured via:
-- R (resonance)
-- σ (disturbance)
-- Δφ (continuity deficit)
-- Λ(t) live tracking
+- ✔ Identity-preserving safety  
+- ✔ Early detection of instability  
+- ✔ Interpretable internal signal  
+- ✔ O(d) computational complexity  
+- ✔ Compatible with LLMs & autonomous agents  
 
 ---
 
-## 🖥 Prototype
+## 🧪 Applications
 
-Interactive HTML simulation:
-
-
-ACI_Lab_v1.0.0.html
-
-Features:
-- Live Λ(t) tracking  
-- Zone classification (Green / Yellow / Orange / Red)  
-- LLM interaction testing  
-- Adversarial scenario simulation  
+- 🤖 Large Language Models (LLMs)  
+- 🚁 Autonomous drones & robotics  
+- 🧠 Cognitive AI systems  
+- 🔐 Robust AI safety frameworks  
 
 ---
 
-## 📊 Applications
+## 📦 Repository Contents
 
-- AI Safety & Alignment  
-- Autonomous systems (robots, drones)  
-- LLM hallucination detection  
-- Cognitive modeling  
-- Neuro-symbolic AI systems  
+- `index.html` → Interactive simulation (Live demo)
+- `README.md` → Project documentation
 
 ---
 
-## 🔮 Future Work
+## 🔬 Research Contribution
 
-- Real LLM integration (PyTorch / Transformers)
-- Multi-agent continuity tracking
-- Hardware-level safety chip (Λ monitor)
-- Phase transition visualization
+This work introduces a **new category of AI safety**:
+
+> **Continuity-Based Internal Safety**  
+> (Identity-preserving regulation instead of output-only evaluation)
 
 ---
 
 ## 👤 Author
 
 **Dr. Alimulhaq Khan**  
-AURA-X Ω Research Cell  
+AURA-X Ω Research  
 
 ---
 
-## ⚖️ License
+## ⚖️ Copyright
 
 © 2026 Dr. Alimulhaq Khan. All rights reserved.  
 Unauthorized use, reproduction, or distribution is strictly prohibited.
 
 ---
 
-## ⭐ Support
+## 🌐 Links
 
-If you find this work valuable:
-- ⭐ Star the repository  
-- 🔁 Share with researchers  
-- 📩 Collaborate on next steps  
+- 🔗 Live Demo: https://alimulhaqkhan-prog.github.io/alim-continuity-index/  
+- 📄 Paper (DOI): https://doi.org/10.5281/zenodo.19201362  
 
 ---
 
-> “Safety is not correctness.  
-> Safety is continuity.”
+## ⭐ Support
 
+If you find this work useful, consider starring ⭐ the repository.
 
