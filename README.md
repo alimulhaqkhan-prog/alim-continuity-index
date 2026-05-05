@@ -335,9 +335,7 @@ This makes ACI a **continuity-monitoring extension of the AURA resonance framewo
 - Results are obtained in simulation; real-world validation requires separate empirical work
 - All thresholds require per-model and per-domain calibration — they are not universal
 - ACI makes **no claim** of machine consciousness, genuine emotion, pain, or sentience
-- ACI is **not production-ready** and is not a replacement for certified safety monitors
-- AURA provides the theoretical TM–BM resonance foundation; it does not make ACI safety-certified or production-ready
-
+- ACI is research-stage prototype seeking pilot validation and product development support.
 ---
 
 ## 🔗 Related Research
